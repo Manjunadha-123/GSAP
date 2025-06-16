@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://media.istockphoto.com/id/1128410927/photo/blue-sky-background-and-white-clouds-soft-focus-and-copy-space.webp?a=1&b=1&s=612x612&w=0&k=20&c=Q9sgusJSX1qcUKKfrPgVaZoMxORGwFXkD6PHQzZ0KXQ=);
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: white;
+}
+
+#nav h1 {
+  font-size: 2rem;
+}
+
+#nav i{
+    font-size: 1.5rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#full{
+    height: 100%;
+    width: 40%;
+    background-color: #ffffff8a;
+    top:0;
+    right: -40%;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    padding: 150px 50px;
+}
+
+#full h4{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#full i{
+    position: absolute;
+    cursor: pointer;
+    top: 5%;
+    right: 10%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 5px;
+}
